@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.PORT || 5000, {
   cors: {
-    origin: "https://aryan7901.github.io/chat-app/",
+    origin: "https://aryan7901.github.io",
     methods: ["GET", "POST"],
   },
 });
